@@ -1,1 +1,3 @@
-# spooky-sound-board-vanillajs
+# Spooky soundboard
+
+This is a soundboard made with vanilla Javascript.
