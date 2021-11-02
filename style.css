@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #202124;
+    font-family: 'Henny Penny', cursive;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    background: #CCCCCC;
+    border: #202124 10px double;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.btns {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 1rem 0.3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #CCCCCC;
+    border: #202124 1px solid;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #202124;
+    color: #CCCCCC;
+}
+
+.fa-solid {
+    font-size: 1.7rem;
+}
